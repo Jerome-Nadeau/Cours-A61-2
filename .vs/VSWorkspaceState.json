@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\packages",
+    "\\packages\\regression_model",
+    "\\packages\\regression_model\\regression_model",
+    "\\packages\\regression_model\\regression_model\\config",
+    "\\packages\\regression_model\\regression_model\\processing",
+    "\\packages\\regression_model\\tests"
+  ],
+  "PreviewInSolutionExplorer": false
+}
