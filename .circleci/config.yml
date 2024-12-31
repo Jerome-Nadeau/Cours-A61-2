@@ -19,9 +19,16 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
-
+          name: "Installer Kaggle API"
+          command: | 
+              pip install kaggle 
+              mkdir -p ~/.kaggle 
+              echo "{"username":"jeromenadeau","key":"3f7c11a50649ca565dfa2239571f8dfc"}" > ~/.kaggle/kaggle.json 
+              chmod 600 ~/.kaggle/kaggle.json
+      - run:
+          name: "Télécharger les données"
+          command: | 
+              kaggle datasets download -d fratzcan/usa-house-prices
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
