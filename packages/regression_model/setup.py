@@ -11,7 +11,7 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'regression_model'
 DESCRIPTION = 'Former et deployer un modele de regression.'
-URL = 'https://github.com/Jerome-Nadeau/Cours-A61.git'
+URL = 'https://github.com/Jerome-Nadeau/Cours-A61-2.git'
 EMAIL = '2197696@csfoy.ca'
 AUTHOR = '2197696'
 REQUIRES_PYTHON = '>=3.6.0'
