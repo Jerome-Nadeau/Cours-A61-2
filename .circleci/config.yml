@@ -2,16 +2,16 @@
 # See: https://circleci.com/docs/configuration-reference
 version: 2.1
 
-# Define a job to be invoked later in a workflow.
+executors:
+  python-executor:
+    docker:
+      - image: cimg/python:3.8
+  
+# Define jobs to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 jobs:
-  say-hello:
-    # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/executor-intro/ & https://circleci.com/docs/configuration-reference/#executor-job
-    docker:
-      # Specify the version you desire here
-      # See: https://circleci.com/developer/images/image/cimg/base
-      - image: cimg/base:current
+  build:
+    executor: python-executor
 
     # Add steps to the job
     # See: https://circleci.com/docs/jobs-steps/#steps-overview & https://circleci.com/docs/configuration-reference/#steps
@@ -19,20 +19,36 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - run:
+          name: Install dependencies
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install -r /regression_model/requirements.txt
+      - run:
           name: "Installer Kaggle API"
           command: | 
-              pip install kaggle 
-              mkdir -p ~/.kaggle 
-              echo "{"username":"jeromenadeau","key":"3f7c11a50649ca565dfa2239571f8dfc"}" > ~/.kaggle/kaggle.json 
-              chmod 600 ~/.kaggle/kaggle.json
+            pip install kaggle 
+            mkdir -p ~/.kaggle 
+            echo '{"username":"jeromenadeau","key":"3f7c11a50649ca565dfa2239571f8dfb"}' > ~/.kaggle/kaggle.json 
+            chmod 600 ~/.kaggle/kaggle.json
       - run:
-          name: "Télécharger les données"
+          name: "TÃ©lÃ©charger les donnÃ©es"
           command: | 
-              kaggle datasets download -d fratzcan/usa-house-prices
+            kaggle datasets download -d fratzcan/usa-house-prices
+
+  say-hello:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - run:
+          name: Say hello
+          command: echo "Hello, CircleCI!"
+
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
   say-hello-workflow: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
+      - build
       - say-hello
