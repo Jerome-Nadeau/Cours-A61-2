@@ -28,6 +28,11 @@ jobs:
             python -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
+      - run: 
+          name: Build package 
+          command: | 
+            . venv/bin/activate 
+            python /packages/regression_model/setup.py sdist bdist_wheel
       - run:
           name: "Installer Kaggle API"
           command: | 
@@ -43,7 +48,7 @@ jobs:
           name: Run tests 
           command: | 
               . venv/bin/activate 
-              pytest tests/
+              pytest /packages/regression_model/tests/
 
   say-hello:
     docker:
