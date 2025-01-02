@@ -19,6 +19,10 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - run:
+          name: Mise`a jour 'pip'
+          command: |
+            pip install --upgrade pip
+      - run:
           name: Install dependencies
           command: |
             python -m venv venv
