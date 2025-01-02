@@ -32,7 +32,7 @@ jobs:
           name: Build package 
           command: | 
             . venv/bin/activate 
-            python /packages/regression_model/setup.py sdist bdist_wheel
+            python setup.py sdist bdist_wheel
       - run:
           name: "Installer Kaggle API"
           command: | 

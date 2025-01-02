@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.circleci\\config.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "controller.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\controller.py",
               "RelativeDocumentMoniker": "packages\\ml_api\\api\\controller.py",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "test_predict.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tests\\test_predict.py",
               "RelativeDocumentMoniker": "packages\\regression_model\\tests\\test_predict.py",
@@ -168,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "setup.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py",
               "RelativeDocumentMoniker": "packages\\regression_model\\setup.py",
@@ -191,7 +191,7 @@
               "RelativeDocumentMoniker": ".circleci\\config.yml",
               "ToolTip": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\.circleci\\config.yml",
               "RelativeToolTip": ".circleci\\config.yml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-12-31T18:13:02.646Z",
               "EditorCaption": ""

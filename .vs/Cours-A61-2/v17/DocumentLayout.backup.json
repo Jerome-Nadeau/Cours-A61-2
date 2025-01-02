@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.circleci\\config.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tox.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\tox.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -19,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\tests\\test_predict.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\MANIFEST.in||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\MANIFEST.in||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\regression_model\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\regression_model\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\config.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\ml_api\\api\\config.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\ml_api\\api\\controller.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "tox.ini",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tox.ini",
               "RelativeDocumentMoniker": "packages\\regression_model\\tox.ini",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "config.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\config.py",
               "RelativeDocumentMoniker": "packages\\ml_api\\api\\config.py",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "controller.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\ml_api\\api\\controller.py",
               "RelativeDocumentMoniker": "packages\\ml_api\\api\\controller.py",
@@ -142,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "__init__.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\regression_model\\__init__.py",
               "RelativeDocumentMoniker": "packages\\regression_model\\regression_model\\__init__.py",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "test_predict.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\tests\\test_predict.py",
               "RelativeDocumentMoniker": "packages\\regression_model\\tests\\test_predict.py",
@@ -168,13 +168,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "setup.py",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py",
               "RelativeDocumentMoniker": "packages\\regression_model\\setup.py",
               "ToolTip": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\setup.py",
               "RelativeToolTip": "packages\\regression_model\\setup.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-02T03:33:21.517Z",
               "EditorCaption": ""
@@ -191,14 +191,14 @@
               "RelativeDocumentMoniker": ".circleci\\config.yml",
               "ToolTip": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\.circleci\\config.yml",
               "RelativeToolTip": ".circleci\\config.yml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-12-31T18:13:02.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "requirements.txt",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\requirements.txt",
               "RelativeDocumentMoniker": "packages\\regression_model\\requirements.txt",
@@ -211,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MANIFEST.in",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\packages\\regression_model\\MANIFEST.in",
               "RelativeDocumentMoniker": "packages\\regression_model\\MANIFEST.in",
@@ -224,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "requirements.txt",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\420-A61-SF\\Cours-A61-2\\requirements.txt",
               "RelativeDocumentMoniker": "requirements.txt",
