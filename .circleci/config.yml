@@ -23,7 +23,7 @@ jobs:
           command: |
             python -m venv venv
             . venv/bin/activate
-            pip install -r Cours-A61-2/packages/regression_model/requirements.txt
+            pip install -r regression_model/requirements.txt
       - run:
           name: "Installer Kaggle API"
           command: | 
