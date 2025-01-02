@@ -39,6 +39,11 @@ jobs:
           name: "Télécharger les données"
           command: | 
             kaggle datasets download -d fratzcan/usa-house-prices
+      - run: 
+          name: Run tests 
+          command: | 
+              . venv/bin/activate 
+              pytest tests/
 
   say-hello:
     docker:
