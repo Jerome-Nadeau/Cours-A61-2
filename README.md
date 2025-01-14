@@ -21,7 +21,7 @@ J'ai demandé à **chatGPT** la structure idéal pour un projet **CircleCI** (vo
 
 ![image](https://github.com/user-attachments/assets/3e337570-d5d6-42b2-b500-847a67e8ff54)
 
-L'image ci-dessus est un élément du pipeline. À la ligne 3, il y a une concaténation de plusieurs variables, mais rien ne correspondait à la structure du projet local. D'où le choix de synchroniser les structures pour éviter de ré-écrire le code. Dès que je suis tombé sur cette erreur, j'ai décidé d'abandonner de développement du pipeline.  
+L'image ci-dessus est un élément du pipeline. À la ligne 3, il y a une concaténation de plusieurs variables, mais rien ne correspondait à la structure du projet local. D'où le choix de synchroniser les structures pour éviter de ré-écrire le code. Dès que je suis tombé sur cette erreur, j'ai décidé d'abandonner de développement du pipeline ; l'idée de ré-écrire le code sans vraiment comprendre l'inter-action **Github-CircleCI**, m'a paru pénible.
 
 Mais...  
 
