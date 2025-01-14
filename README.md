@@ -17,7 +17,7 @@ Dans le code, python a essayé de concaténer deux objets (objet **path** et obj
 La structure actuelle du projet ne semblait pas adaptée au docker fourni par **CircleCI**.
 Je crois que l'utilisation d'un docker au niveau local aurait aidé à détecter les problèmes de chemin de recherche(path). Le docker local et le docker fourni par CircleCI seraient synchronisés.
 
-J'ai demandé à **chatGPT** la structure idéal pour un projet **CircleCI** (voir la partie droite de la copie d'écran). On voit que la structure local est moins adaptée pour la mise en place dans un futur projet **CircleCI**.
+J'ai demandé à **chatGPT** la structure idéal pour un projet **CircleCI** (voir la partie droite de la copie d'écran). On voit que la structure local est moins adaptée pour la mise en place d'un futur projet **CircleCI**.
 
 ![image](https://github.com/user-attachments/assets/3e337570-d5d6-42b2-b500-847a67e8ff54)
 
