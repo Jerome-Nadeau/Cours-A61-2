@@ -18,5 +18,16 @@ La structure actuelle du projet ne semblait pas adaptée au docker fourni par **
 Je crois que l'utilisation d'un docker au niveau local aurait aidé à détecter les problèmes de chemin de recherche(path). Le docker local et le docker fourni par CircleCI seraient synchronisés.
 
 J'ai demandé à **chatGPT** la structure idéal pour un projet **CircleCI** (voir la partie droite de la copie d'écran). On voit que la structure local est moins adaptée pour la mise en place dans un futur projet **CircleCI**.
-![image](https://github.com/user-attachments/assets/ec41c952-c267-464c-a75a-2c5e45abbb83)
-L'image ci-dessus est un élément du pipeline. À la ligne 3, il y a une concaténation de plusieurs variables, mais rien ne correspondait à la structure du projet local. D'où le choix de synchroniser les structures pour éviter de ré-écrire le code. Dès que je suis tombé sur cette erreur, j'ai décidé d'abandonner de développement du pipeline.
+
+![image](https://github.com/user-attachments/assets/3e337570-d5d6-42b2-b500-847a67e8ff54)
+
+L'image ci-dessus est un élément du pipeline. À la ligne 3, il y a une concaténation de plusieurs variables, mais rien ne correspondait à la structure du projet local. D'où le choix de synchroniser les structures pour éviter de ré-écrire le code. Dès que je suis tombé sur cette erreur, j'ai décidé d'abandonner de développement du pipeline.  
+
+Mais...  
+
+J'ai quand même fait des bons coups.
+![image](https://github.com/user-attachments/assets/8ac7b420-3c30-4827-80a0-e17b0137bfaa)
+À l'intérieur du docker fourni par CircleCI, j'ai mis à jour le pip, installé les dépendances. J'ai dû déplacer le fichier **requirements.txt** pour réaliser cela, parce que le fichier n'était pas inclus dans le chemin de recherche (path).  
+
+J'ai installé l'API Kaggle, j'ai créé un token Kaggle et téléchargé sur le site de Kaggle un jeu de données.  
+
